@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+import axios from '../../services/axios_api'
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles.css";
 
@@ -15,10 +15,10 @@ class PainelArtistaConteudo extends Component {
 
 	getDataFromApi = async () => {
 		try {
-			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+
 			// Pegar os albuns que serão listados
 			let objResponse = await axios.get(
-				'https://itunes.apple.com/lookup?id=278873078&entity=album&limit=2'
+				'lookup?id=278873078&entity=album&limit=2'
 			);
 
 			let arrAlbumsSongs = [];
@@ -36,7 +36,7 @@ class PainelArtistaConteudo extends Component {
 				} = album;
 
 				axios.get(
-					`https://itunes.apple.com/it/search?term=${collectionName}&entity=song`
+					`it/search?term=${collectionName}&entity=song`
 				).then((objResponse2) => {
 
 					let arrDataAlbums = {
