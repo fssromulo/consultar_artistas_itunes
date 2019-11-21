@@ -6,7 +6,8 @@ const api = axios.create({
 		'Access-Control-Allow-Origin': '*',
 		'Content-Type': 'application/json;charset=utf-8',
 		'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-		'Access-Control-Allow-Credentials': true
+		'Access-Control-Allow-Credentials': true,
+		"Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
 	}
 });
 
