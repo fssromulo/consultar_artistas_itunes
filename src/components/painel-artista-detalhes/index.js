@@ -9,10 +9,9 @@ class PainelArtistaDetalhe extends Component {
 			<div className='row'>
 				<div className='col-sm-8'>
 					<h1>Bruno Mars</h1>
-					<br />
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus eros eget ligula fringilla, id mattis nisl pretium. Nulla pharetra nulla ac nisi dapibus pellentesque. Nulla sem nisl, tincidunt nec viverra sit amet, commodo sed nunc. Nullam suscipit imperdiet enim a pretium. Phasellus fermentum lorem pretium condimentum sollicitudin.
-						Quisque vel augue ultrices, molestie risus ut, blandit urna. Nunc vitae molestie nisl, eu ultricies nisl. Sed euismod cursus mi, eget convallis felis efficitur eget. Mauris sit amet leo interdum, tincidunt tortor vitae, faucibus eros. Pellentesque elit libero, lacinia ut augue a, lobortis elementum dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend dui magna, id rutrum sem rhoncus id. Nulla interdum vitae felis et ullamcorper.
+						Peter Gene Hernandez (Honolulu, 8 de outubro de 1985), mais conhecido pelo nome artístico Bruno Mars é um cantor, compositor, produtor musical, dançarino e multi-instrumentista americano, nascido e criado no Havaí.
+						O álbum intitulado "Unorthodox Jukebox", foi lançado em 11 de dezembro de 2012, do qual o primeiro single, a música "Locked Out of Heaven", foi lançado em 1 de outubro. No dia 13 de dezembro de 2012, "Locked Out of Heaven" assumiu a 1ª posição da Billboard Hot 100 e da Hot Digital Songs, graças a seu crescimento nas vendas digitais de 46% em relação a semana anterior. "Locked Out of Heaven" tornou Mars o artista masculino com o maior número de singles número um no menor período de tempo na parada desde 1964, quando Bobby Vinton registrou o mesmo recorde. <small>(Fonte: Wikipidia, 2019)</small>
 					</p>
 				</div>
 				<div className='col-sm-4'>
@@ -25,20 +24,19 @@ class PainelArtistaDetalhe extends Component {
 							</div>
 							<div className='row'>
 								<div className='col-xs-12'>
-									New Orleans, La
+									Honolulu, Havaí
 								</div>
 							</div>
 						</li>
 						<li className="list-group-item">
 							<div className='row'>
 								<div className='col-xs-12'>
-									<small>Genre:</small>
+									<small>Genre(s):</small>
 								</div>
 							</div>
 							<div className='row'>
 								<div className='col-xs-12'>
-									Hip Hop
-
+									Pop, Hip hop, Pop rock, Funk, Disco, Soul, New jack, Swing, Rock
 								</div>
 							</div>
 						</li>
@@ -50,7 +48,7 @@ class PainelArtistaDetalhe extends Component {
 							</div>
 							<div className='row'>
 								<div className='col-xs-12'>
-									Sep 27, 1982
+									Out 8, 1985
 								</div>
 							</div>
 						</li>
