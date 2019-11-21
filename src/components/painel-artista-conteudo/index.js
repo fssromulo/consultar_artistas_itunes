@@ -15,7 +15,7 @@ class PainelArtistaConteudo extends Component {
 
 	getDataFromApi = async () => {
 		try {
-
+			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
 			// Pegar os albuns que serão listados
 			let objResponse = await axios.get(
 				'https://itunes.apple.com/lookup?id=278873078&entity=album&limit=2'
