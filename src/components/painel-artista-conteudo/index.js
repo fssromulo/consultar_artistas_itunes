@@ -26,7 +26,7 @@ class PainelArtistaConteudo extends Component {
 			arrApiAlbumsList = objResponse.data.results;
 			arrApiAlbumsList.shift();
 
-			arrApiAlbumsList.map((album) => {
+			arrApiAlbumsList.forEach((album) => {
 				const {
 					artistName,
 					collectionName,
@@ -51,13 +51,13 @@ class PainelArtistaConteudo extends Component {
 					// Filtra só oque é do album selecionado
 					arrDataAlbums.arrSongs = objResponse2.data.results.filter(data => {
 						return (
-							data.collectionId == collectionId
+							data.collectionId === collectionId
 						);
 					});
 
 					arrAlbumsSongs.push(arrDataAlbums);
 
-					this.setState({ arrAlbums: arrAlbumsSongs});
+					this.setState({ arrAlbuns: arrAlbumsSongs});
 				});
 			});
 		} catch (error) {
